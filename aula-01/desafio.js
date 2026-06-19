@@ -1,6 +1,6 @@
-let nomeAluno = "gustavo";
-let pesoAluno = 63;
-let alturaAluno = 1.89;
+let nomeAluno = "brenda";
+let pesoAluno = 59;
+let alturaAluno = 1.57;
 
 let imcAluno = pesoAluno / (alturaAluno * alturaAluno);
 
