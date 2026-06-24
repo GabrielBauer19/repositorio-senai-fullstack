@@ -10,7 +10,7 @@ Mais de dois caminhos. Nota 9+ ótimo, 7+ bom, 5+ regular, senão ruim.
 4. true ou false
 Resposta de sim ou não. "Restaurante aberto?" — só pode ser um dos dois.
 
-5. **== vs ===**  O == aceita formatos diferentes com mesmo valor. === exige exatamente o que foi pedido. Use sempre.
+5. **\== vs ===**  O == aceita formatos diferentes com mesmo valor. === exige exatamente o que foi pedido. Use sempre.
 
 6. &&, ||, !
 && precisa dos dois: cartão e senha. || basta um: ingresso ou nome na lista. ! inverte: se não pagou, bloqueia.
