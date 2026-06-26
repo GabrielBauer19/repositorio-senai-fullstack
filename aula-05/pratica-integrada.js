@@ -13,17 +13,18 @@ for (let i = 0; i < nomes.length; i++) {
     console.log("Notas: ", notas[i]);
     console.log("Frequencia: ", frequencia[i]);
 
-       soma = soma + notas[i]
+    soma = soma + notas[i]
 
     if (notas[i] >= 7 && frequencia[i] >= 75) {
         console.log('aluno aprovado')
 
-    } else if (notas[i] >= 5 || notas[i] < 7 && frequência[i] >= 75){ 
-         console.log('recuperacao')}
-        else {
-            console.log ('aluno reprovado')
-        }
-    
+    } else if (notas[i] >= 5 && frequencia[i] >= 75) {
+        console.log('recuperacao')
+    }
+    else {
+        console.log('aluno reprovado')
+    }
+
     console.log("=================================")
 
 }
@@ -33,4 +34,24 @@ let media = soma / notas.length;
 console.log('media da turma: ' + media)
 
 
+let opcao = 3;
 
+switch (opcao) {
+    case 1:
+        for(let i = 0; i < nomes.length; i++){
+            console.log('media de nota da turma: ' + nomes[i])
+
+        }
+        break
+    case 2:
+        console.log (media)
+        break
+    case 3:
+        for(let i = 0; i < frequencia.length; i++){
+            console.log('frequencia do/a '+ nomes[i] + ':' +  frequencia[i]+ '%')
+        }
+        break
+    default:
+        console.log('erro')
+    break
+}
